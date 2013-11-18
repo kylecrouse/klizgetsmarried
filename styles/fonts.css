@@ -1,0 +1,27 @@
+/* @license
+ * MyFonts Webfont Build ID 2689815, 2013-11-16T11:11:18-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Strangelove Text by FaceType
+ * URL: http://www.myfonts.com/webfonts/facetype/strangelove/text/
+ * Copyright: Copyright (c) 2009 by Marcus Sterz / FaceType. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2689815
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/290b17");
+
+  
+@font-face {font-family: 'StrangeloveText';src: url('../fonts/290B17_0_0.eot');src: url('../fonts/290B17_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/290B17_0_0.woff') format('woff'),url('../fonts/290B17_0_0.ttf') format('truetype');}
+ 
