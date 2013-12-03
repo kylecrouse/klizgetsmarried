@@ -55,20 +55,26 @@ h1 {
   width: 100%;
 }
 
-section {
+.aloha {
   background: #fef2f6 url("../images/hibiscus.png") no-repeat 4% 40px;
   padding: 40px 20px;
 }
-div {
+.aloha div {
   line-height: 1.4;
   margin: 0 auto 1em;
 }
-div h2 {
-  font-weight: 100;
-}
-div p:last-child {
+.aloha h2 {
+  font-family: "StrangeloveText";
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 1;
   margin-bottom: 0;
 }
+.aloha p:last-child {
+  margin-bottom: 0;
+}
+
+
 
 @media (min-width: 480px) {
   body {
@@ -100,11 +106,11 @@ div p:last-child {
   h1 {
     font-size: 276px;
   }
-  section {
+  .aloha {
     font-size: 24px;
     padding: 220px 0 150px;
   }
-  div {
+  .aloha div {
     width: 620px;
   }
 }
