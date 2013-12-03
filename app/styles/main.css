@@ -1,7 +1,26 @@
 @import url("normalize.css");
 @import url("fonts.css");
 
+.blue {
+  background-color: #1d2951;
+}
+.gray {
+  background-color: #efefef;
+}
+.white {
+  background-color: #fefef9;
+}
+.pink {
+  background-color: #fef2f6;
+}
+.poppy {
+  background-color: #e42f0c;
+}
+
 body {
+  color: #363636;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
   margin: 0;
 }
 
@@ -19,7 +38,7 @@ header {
   text-align: center;
 }
 
-p {
+header p {
   bottom: 10px;
   font-size: 47px;
   margin: 0;
@@ -36,6 +55,21 @@ h1 {
   width: 100%;
 }
 
+section {
+  background: #fef2f6 url("../images/hibiscus.png") no-repeat 4% 40px;
+  padding: 40px 20px;
+}
+div {
+  line-height: 1.4;
+  margin: 0 auto 1em;
+}
+div h2 {
+  font-weight: 100;
+}
+div p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 480px) {
   body {
     min-width: 480px;
@@ -45,7 +79,7 @@ h1 {
     background-size: 30%;
     height: 210px;
   }
-  p {
+  header p {
     font-size: 32px;
   }
   h1 {
@@ -59,12 +93,19 @@ h1 {
     background-size: 51%;
     height: 660px;
   }
-  p {
+  header p {
     bottom: 30px;
     font-size: 105px;
   }
   h1 {
     font-size: 276px;
+  }
+  section {
+    font-size: 24px;
+    padding: 220px 0 150px;
+  }
+  div {
+    width: 620px;
   }
 }
 
@@ -81,7 +122,7 @@ h1 {
   h1 {
     top: 40px;
   }
-  p {
+  header p {
     bottom: 50px;
   }
 }
