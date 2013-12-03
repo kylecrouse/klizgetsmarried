@@ -5,7 +5,7 @@
   background-color: #1d2951;
 }
 .gray {
-  background-color: #efefef;
+  background-color: #e9efef;
 }
 .white {
   background-color: #fefef9;
@@ -55,26 +55,47 @@ h1 {
   width: 100%;
 }
 
-.aloha {
-  background: #fef2f6 url("../images/hibiscus.png") no-repeat 4% 40px;
-  padding: 40px 20px;
-}
-.aloha div {
-  line-height: 1.4;
-  margin: 0 auto 1em;
-}
-.aloha h2 {
+h2 {
   font-family: "StrangeloveText";
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
-.aloha p:last-child {
+
+h3 {
+  font-weight: normal;
+  margin: 0 0 10px;
+}
+
+section div {
+  margin: 0 auto;
+}
+section p {
+  line-height: 1.4;
+  margin: 0 0 1em;
+}
+section p:last-child {
   margin-bottom: 0;
 }
 
+a {
+  color: #1d2951;
+}
+a:hover,
+a:active {
+  color: #e42f0c;
+}
 
+.aloha {
+  background: #fef2f6 url("../images/hibiscus.png") no-repeat 4% 40px;
+  padding: 40px 20px;
+}
+
+.festivities {
+  background: #e9efef url("../images/anna-ranch.jpg") no-repeat 80% 50%;
+  padding: 40px 20px;
+}
 
 @media (min-width: 480px) {
   body {
@@ -106,12 +127,18 @@ h1 {
   h1 {
     font-size: 276px;
   }
+  section div {
+    width: 620px;
+  }
   .aloha {
     font-size: 24px;
     padding: 220px 0 150px;
   }
-  .aloha div {
-    width: 620px;
+  .festivities {
+    padding: 100px 0 200px;
+  }
+  .festivities h2 {
+    margin-bottom: 50px;
   }
 }
 
