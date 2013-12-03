@@ -80,7 +80,7 @@ section p:last-child {
 }
 
 a {
-  color: #1d2951;
+  color: inherit;
 }
 a:hover,
 a:active {
@@ -93,6 +93,12 @@ a:active {
 }
 
 .festivities {
+  background-color: #1d2951;
+  color: #fefef9;
+  padding: 40px 20px;
+}
+
+.getting-there {
   background-color: #e9efef;
   padding: 40px 20px;
 }
@@ -132,14 +138,20 @@ a:active {
   }
   .aloha {
     font-size: 24px;
-    padding: 220px 0 150px;
+    padding: 220px 0 200px;
   }
   .festivities {
-    background: #e9efef url("../images/anna-ranch.jpg") no-repeat 80% 50%;
-    padding: 150px 0;
+    background: #1d2951 url("../images/anna-ranch.jpg") no-repeat 20% 50%;
+    padding: 220px 0;
+    text-align: right;
   }
-  .festivities h2 {
+  .festivities h2,
+  .getting-there h2 {
     margin-bottom: 50px;
+  }
+  .getting-there {
+    background: #e9efef url("../images/hawaii.png") no-repeat 60% 40%;
+    padding: 220px 0;
   }
 }
 
