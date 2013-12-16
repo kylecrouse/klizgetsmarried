@@ -1,6 +1,7 @@
 @import url("normalize.css");
 @import url("fonts.css");
 
+/*
 .blue {
   background-color: #1d2951;
 }
@@ -16,16 +17,38 @@
 .poppy {
   background-color: #e42f0c;
 }
+*/
+.green {
+  background-color: rgb(112, 117, 15);
+}
+.dark-grey {
+  background-color: rgb(176, 174, 178);
+}
+.cream {
+  background-color: rgb(254, 249, 242);
+}
+.light-grey {
+  background-color: rgb(248, 241, 243);
+}
+.medium-grey {
+  background-color: rgb(246, 233, 239);
+}
+.magenta {
+  background-color: rgb(190, 57, 112);
+}
+.coral {
+  background-color: rgb(233, 63, 55);
+}
 
 body {
-  color: #363636;
+  color: #565656;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 100;
   margin: 0;
 }
 
 header {
-  background-color: #303030;
+  background-color: rgb(176, 174, 178);
   background-image: url("../images/kyle.jpg"), url("../images/liz.jpg");
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
@@ -84,23 +107,33 @@ a {
 }
 a:hover,
 a:active {
-  color: #e42f0c;
+  color: rgb(233, 63, 55);
 }
 
 .aloha {
-  background: #fef2f6 url("../images/hibiscus.png") no-repeat 4% 40px;
+  background: rgb(246, 233, 239) url("../images/hibiscus.png") no-repeat 4% 40px;
   padding: 40px 20px;
 }
 
 .festivities {
-  background-color: #1d2951;
+  background-color: rgb(112, 117, 15);
   color: #fefef9;
   padding: 40px 20px;
 }
 
 .getting-there {
-  background-color: #e9efef;
+  background-color: rgb(248, 241, 243);
   padding: 40px 20px;
+}
+
+.accommodations {
+  background-color: rgb(190, 57, 112);
+  color: #fff;
+  padding: 40px 20px;
+}
+.accommodations a:hover,
+.accommodations a:active {
+  color: rgb(176, 174, 178);
 }
 
 @media (min-width: 480px) {
@@ -141,7 +174,7 @@ a:active {
     padding: 220px 0 200px;
   }
   .festivities {
-    background: #1d2951 url("../images/anna-ranch.jpg") no-repeat 20% 50%;
+    background: rgb(112, 117, 15) url("../images/anna-ranch.jpg") no-repeat 20% 50%;
     padding: 220px 0;
     text-align: right;
   }
@@ -150,8 +183,11 @@ a:active {
     margin-bottom: 50px;
   }
   .getting-there {
-    background: #e9efef url("../images/hawaii.png") no-repeat 60% 40%;
+    background: rgb(248, 241, 243) url("../images/hawaii.png") no-repeat 60% 40%;
     padding: 220px 0;
+  }
+  .accommodations {
+    padding: 100px 0;
   }
 }
 
