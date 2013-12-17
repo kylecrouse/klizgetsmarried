@@ -122,7 +122,8 @@ a:active {
 }
 
 .getting-there {
-  background-color: #d9d9d9;
+  background-color: #808080;
+  color: #fff;
   padding: 40px 20px;
 }
 
@@ -178,7 +179,7 @@ a:active {
     margin-bottom: 50px;
   }
   .getting-there {
-    background: #d9d9d9 url("../images/hawaii.png") no-repeat 60% 10%;
+    background: #808080 url("../images/hawaii.png") no-repeat 60% 10%;
     padding: 200px 0 100px;
   }
   .accommodations {
