@@ -39,6 +39,9 @@
 .coral {
   background-color: rgb(233, 63, 55);
 }
+.pinky {
+  background-color: rgb(224, 7, 71);
+}
 
 body {
   color: #565656;
@@ -100,6 +103,9 @@ section p {
   line-height: 1.4;
   margin: 0 0 1em;
 }
+section p + h3 {
+  margin-top: 2.5em;
+}
 section p:last-child {
   margin-bottom: 0;
 }
@@ -132,6 +138,43 @@ a:active {
 .accommodations {
   background-color: rgb(248, 241, 243);
   padding: 40px 20px;
+}
+
+.registry {
+  background-color: rgb(224, 7, 71);
+  color: #fff;
+  padding: 40px 20px;
+}
+.registry ul {
+  margin: 0 0 2em;
+  padding: 0;
+}
+.registry li {
+  list-style: none;
+  margin-top: 2em;
+}
+.registry img {
+  border-width: 5px;
+  border-style: solid;
+  padding: 15px;
+}
+.heath img {
+  background-color: #181511;
+  border-color: #181511;
+}
+.heath a:hover img {
+  border-color: #fff;
+}
+.cb img,
+.cho img {
+  background-color: #fff;
+  border-color: #fff;
+}
+.cb a:hover img {
+  border-color: #000;
+}
+.cho a:hover img {
+  border-color: rgb(139, 101, 171);
 }
 
 @media (min-width: 480px) {
@@ -172,8 +215,8 @@ a:active {
     padding: 220px 0 200px;
   }
   .festivities {
-    background: rgb(112, 117, 15) url("../images/anna-ranch.jpg") no-repeat 20% 50%;
-    padding: 220px 0;
+    background: rgb(112, 117, 15) url("../images/anna-ranch.jpg") no-repeat 20% 55%;
+    padding: 150px 0;
     text-align: right;
   }
   .festivities h2,
@@ -185,6 +228,9 @@ a:active {
     padding: 200px 0 100px;
   }
   .accommodations {
+    padding: 100px 0;
+  }
+  .registry {
     padding: 100px 0;
   }
 }
