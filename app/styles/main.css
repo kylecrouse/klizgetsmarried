@@ -1,50 +1,27 @@
 @import url("normalize.css");
 @import url("fonts.css");
 
-/*
-.blue {
-  background-color: #1d2951;
+.red {
+  color: #ff665e;
 }
-.gray {
-  background-color: #e9efef;
+.purple {
+  color: #bb569d;
 }
-.white {
-  background-color: #fefef9;
+.citron {
+  color: #dbe200;
 }
-.pink {
-  background-color: #fef2f6;
+.warm-gray {
+  color: #827c78;
 }
-.poppy {
-  background-color: #e42f0c;
+.cool-gray {
+  color: #c5c5c5;
 }
-*/
-.green {
-  background-color: rgb(112, 117, 15);
-}
-.dark-grey {
-  background-color: rgb(176, 174, 178);
-}
-.cream {
-  background-color: rgb(254, 249, 242);
-}
-.light-grey {
-  background-color: rgb(248, 241, 243);
-}
-.medium-grey {
-  background-color: rgb(246, 233, 239);
-}
-.magenta {
-  background-color: rgb(190, 57, 112);
-}
-.coral {
-  background-color: rgb(233, 63, 55);
-}
-.pinky {
-  background-color: rgb(224, 7, 71);
+.dark-gray {
+  color: #595955;
 }
 
 body {
-  color: #565656;
+  color: #595955;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 100;
   line-height: 1.4;
@@ -52,7 +29,7 @@ body {
 }
 
 header {
-  background-color: rgb(176, 174, 178);
+  background-color: #827c78;
   background-image: url("../images/kyle.jpg"), url("../images/liz.jpg");
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
@@ -119,29 +96,29 @@ a:active {
 }
 
 .aloha {
-  background: rgb(246, 233, 239) url("../images/hibiscus.png") no-repeat 4% 40px;
+  background: #dbe200 url("../images/hibiscus.png") no-repeat 4% 40px;
   padding: 40px 20px;
 }
 
 .festivities {
-  background-color: rgb(112, 117, 15);
-  color: #fefef9;
+  background-color: #c5c5c5;
   padding: 40px 20px;
 }
 
 .getting-there {
-  background-color: #6B6B6B;
+  background-color: #827c78;
   color: #fff;
   padding: 40px 20px;
 }
 
 .accommodations {
-  background-color: rgb(248, 241, 243);
+  background-color: #ff665e;
+  color: #fff;
   padding: 40px 20px;
 }
 
 .registry {
-  background-color: rgb(224, 7, 71);
+  background-color: #d557af;
   color: #fff;
   padding: 40px 20px;
 }
@@ -215,7 +192,9 @@ a:active {
     padding: 220px 0 200px;
   }
   .festivities {
-    background: rgb(112, 117, 15) url("../images/anna-ranch.jpg") no-repeat 20% 55%;
+    background-image: url("../images/anna-ranch.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 55%;
     padding: 150px 0;
     text-align: right;
   }
@@ -224,7 +203,9 @@ a:active {
     margin-bottom: 50px;
   }
   .getting-there {
-    background: #6B6B6B url("../images/hawaii.png") no-repeat 60% 10%;
+    background-image: url("../images/hawaii.png");
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
     padding: 200px 0 100px;
   }
   .accommodations {
